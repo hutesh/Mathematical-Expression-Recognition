@@ -57,7 +57,7 @@ class TexLet(object):
 
             return latex
         else:
-            return self.template
+            return self.template//
 
 
 class SimpleTexLet(TexLet):
